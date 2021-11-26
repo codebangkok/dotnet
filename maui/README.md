@@ -4,6 +4,7 @@
 * Maui https://github.com/dotnet/maui
 * Maui Check https://github.com/Redth/dotnet-maui-check
 * Comet https://github.com/dotnet/comet
+* Xamarin Community Toolkit https://github.com/xamarin/xamarincommunitytoolkit
 * Weather Twenty One https://github.com/davidortinau/WeatherTwentyOne
 
 ### VS Code Extension
@@ -13,8 +14,10 @@
 * Redth.Net.Maui.Check https://www.nuget.org/packages/Redth.Net.Maui.Check
 * Microsoft.Maui.Templates https://www.nuget.org/packages/Microsoft.Maui.Templates
 * Clancey.Comet https://www.nuget.org/packages/Clancey.Comet
+* Clancey.Comet.Reload https://www.nuget.org/packages/Clancey.Comet.Reload
 * Clancey.Comet.Templates.Multiplatform https://www.nuget.org/packages/Clancey.Comet.Templates.Multiplatform
-
+* CommunityToolkit.Maui https://www.nuget.org/packages/CommunityToolkit.Maui
+* CommunityToolkit.Maui.Markup https://www.nuget.org/packages/CommunityToolkit.Maui.Markup
 
 ### .NET MAUI Workload (Preview 10)
 ```sh
