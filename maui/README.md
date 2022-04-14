@@ -19,9 +19,9 @@
 * CommunityToolkit.Maui https://www.nuget.org/packages/CommunityToolkit.Maui
 * CommunityToolkit.Maui.Markup https://www.nuget.org/packages/CommunityToolkit.Maui.Markup
 
-### .NET MAUI Workload (Preview 10)
+### .NET MAUI Workload (Release Candidate)
 ```sh
-dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --from-rollback-file https://aka.ms/dotnet/maui/preview.10.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
+dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --from-rollback-file https://aka.ms/dotnet/maui/rc.1.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
 ```
 
 ### .NET MAUI Workload (Main)
