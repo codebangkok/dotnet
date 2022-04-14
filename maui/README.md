@@ -21,12 +21,12 @@
 
 ### .NET MAUI Workload (Release Candidate)
 ```sh
-dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --from-rollback-file https://aka.ms/dotnet/maui/rc.1.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
+sudo dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --from-rollback-file https://aka.ms/dotnet/maui/rc.1.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
 ```
 
 ### .NET MAUI Workload (Main)
 ```sh
-dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
+sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
 ```
 
 ### Launch the .NET MAUI project,
