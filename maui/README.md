@@ -2,10 +2,11 @@
 
 ### GitHub
 * Maui https://github.com/dotnet/maui
-* Maui Check https://github.com/Redth/dotnet-maui-check
 * Comet https://github.com/dotnet/comet
-* Xamarin Community Toolkit https://github.com/xamarin/xamarincommunitytoolkit
 * Weather Twenty One https://github.com/davidortinau/WeatherTwentyOne
+* MAUI Documentation https://docs.microsoft.com/en-us/dotnet/maui/
+* MAUI Podcasts https://github.com/microsoft/dotnet-podcasts
+* MAUI Samples https://github.com/dotnet/maui-samples
 
 ### VS Code Extension
 * Comet for .NET Mobile https://marketplace.visualstudio.com/items?itemName=Clancey.comet-debug
@@ -18,16 +19,6 @@
 * Clancey.Comet.Templates.Multiplatform https://www.nuget.org/packages/Clancey.Comet.Templates.Multiplatform
 * CommunityToolkit.Maui https://www.nuget.org/packages/CommunityToolkit.Maui
 * CommunityToolkit.Maui.Markup https://www.nuget.org/packages/CommunityToolkit.Maui.Markup
-
-### .NET MAUI Workload (Release Candidate)
-```sh
-sudo dotnet workload install android ios maccatalyst tvos macos maui wasm-tools --from-rollback-file https://aka.ms/dotnet/maui/rc.1.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
-```
-
-### .NET MAUI Workload (Main)
-```sh
-sudo dotnet workload install maui --from-rollback-file https://aka.ms/dotnet/maui/main.json --source https://aka.ms/dotnet6/nuget/index.json --source https://api.nuget.org/v3/index.json
-```
 
 ### Launch the .NET MAUI project,
 ```sh
@@ -46,8 +37,3 @@ dotnet build -t:Run -f net6.0-ios /p:_DeviceName=:v2:udid=F71DC411-8561-49AF-964
 emulator -list-avds
 ```
 
-### Comet App
-
-```xml
-<MauiVersion>6.0.101-preview.11.2117</MauiVersion>
-```
